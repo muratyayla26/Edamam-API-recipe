@@ -10,3 +10,5 @@ I just created this application to consolidate my JS skills.
 * JavaScript
 * HTML 5
 * CSS 3
+
+![](images/edamamAPI.png)
