@@ -1,172 +1,172 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    font-family: "Shrikhand", serif;
-    width: 100%;
-    height: 150px;
-    background-color: purple;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url("headerback.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  font-family: "Shrikhand", serif;
+  width: 100%;
+  height: 150px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/headerback.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-    color: white;
-    font-size: 70px;
+  color: white;
+  font-size: 70px;
 }
 
 .searchContainer {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    width: 230px;
-    height: 100px;
-    margin-top: 25px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 230px;
+  height: 100px;
+  margin-top: 25px;
 }
 
 .searchContainer form {
-    text-align: center;
+  text-align: center;
 }
 
 .searchContainer input {
-    font-size: 17px;
-    height: 30px;
-    outline-style: none;
-    border: 1px solid rgba(12, 19, 11, 0.2);
-    border-radius: 5px;
+  font-size: 17px;
+  height: 30px;
+  outline-style: none;
+  border: 1px solid rgba(12, 19, 11, 0.2);
+  border-radius: 5px;
 }
 
 .searchContainer button {
-    height: 28px;
-    width: 60px;
-    margin-top: 10px;
-    background-color: white;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    outline-style: none;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-size: 20px;
+  height: 28px;
+  width: 60px;
+  margin-top: 10px;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  outline-style: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 .searchContainer button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .contentContainer {
-    margin: auto;
-    height: auto;
-    width: 900px;
-    /*border: 3px solid black;*/
-    display: flex;
-    align-items: stretch;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  margin: auto;
+  height: auto;
+  width: 900px;
+  /*border: 3px solid black;*/
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .recipiContainer {
-    padding: 10px;
-    height: auto;
-    width: 250px;
-    border: 1px solid rgba(12, 19, 11, 0.2);
-    border-radius: 5px;
-    margin: 10px 0;
-    text-align: center;
-    margin-bottom: 30px;
+  padding: 10px;
+  height: auto;
+  width: 250px;
+  border: 1px solid rgba(12, 19, 11, 0.2);
+  border-radius: 5px;
+  margin: 10px 0;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .recipiContainer h3 {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    letter-spacing: 1px;
-    color: #0A21D1;
-    font-size: 17px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 1px;
+  color: #0a21d1;
+  font-size: 17px;
 }
 
-.recipiContainer img{
-    border-radius: 5px;
-    margin: 10px auto;
-    width: 200px;
-    height: 200px;
+.recipiContainer img {
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
 }
 
 .recipiContainer h4 {
-    line-height: 22px;
-    color: #0C130B;
-    font-size: 16px;
+  line-height: 22px;
+  color: #0c130b;
+  font-size: 16px;
 }
 
 .recipiContainer h5 {
-    line-height: 22px;
-    color: #0C130B;
-    font-size: 16px;
+  line-height: 22px;
+  color: #0c130b;
+  font-size: 16px;
 }
 
 .recipiContainer h5:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .recipiContainer ul {
-    display: none;
-    text-align: left;
-    color: white;
-    position: absolute;
-    background-color: rgba(12, 19, 11, 0.8);
-    border-radius: 5px;
-    padding: 10px 20px 20px 30px;
-    line-height: 22px;
-    letter-spacing: 1px;
-    transition: display 2s ease;
+  display: none;
+  text-align: left;
+  color: white;
+  position: absolute;
+  background-color: rgba(12, 19, 11, 0.8);
+  border-radius: 5px;
+  padding: 10px 20px 20px 30px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  transition: display 2s ease;
 }
 
 .recipiContainer p {
-    text-align: right;
-    font-size: 20px;
-    color: white;
+  text-align: right;
+  font-size: 20px;
+  color: white;
 }
 
 .recipiContainer p:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #moreButton {
-    display: block;
-    height: 56px;
-    width: 70px;
-    margin: auto;
-    margin-top: 10px;
-    background-color: white;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    outline-style: none;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-size: 20px;
+  display: block;
+  height: 56px;
+  width: 70px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  outline-style: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 #moreButton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .displayWarning {
-    text-align: center;
-    display: block;
-    margin: 25px auto;
-    width: 150px;
-    font-size: 20px;
-    font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 25px auto;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
 }
-
